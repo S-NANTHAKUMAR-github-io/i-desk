@@ -2,10 +2,10 @@ import React from "react";
 const Bio = () => {
     const editForm = (
         <form className='edit-bio-form'>
-            <input type="text"id="" placeholder="Your name" />
-            <input type="text"id="" placeholder="About You" />
+            <p>Virat kohli Indian Captian</p>
+            <input type="text"id="" placeholder="Add Comments" />
             <br/>
-            <button type='button' className="cancel-button">Cancel</button>
+            <button type='button' className="cancel-button">Back</button>
             <button type='button'>Save</button>
         </form>
     )
