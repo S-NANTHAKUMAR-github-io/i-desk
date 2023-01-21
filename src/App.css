@@ -179,7 +179,7 @@ nav {
 }
 
 .edit-bio-form .cancel-button {
-  background-color: #890000;
+  background-color: red;
 }
 
 #addPhotoInput {

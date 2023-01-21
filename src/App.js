@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import Nav from './components/Navbar';
-import Bio from './components/Bio';
-import Gallery from './components/Gallery';
+import Bio from './components/BioPage';
+import Gallery from './components/Grid';
 
 function App() {
   return (
-    <div>
+    <>
       <Nav />
+      <div classsName="container">
       <Bio/>
       <Gallery/>
-    </div>
+      </div>
+    </>
   );
 }
 

@@ -42,10 +42,10 @@ class Gallery extends React.Component {
   render() {
     return (
       <>
-      <input type='file' name="photo" id="addPhotoinput" />
-      <label htmlFor="addPhotoinput">
-          <i clasName=""></i>
-      </label>
+      
+      
+      
+      
       <div id>
 
 

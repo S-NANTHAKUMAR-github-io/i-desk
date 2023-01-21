@@ -3,7 +3,8 @@ const Bio = () => {
     const editForm = (
         <form className='edit-bio-form'>
             <p>Virat kohli Indian Captian</p>
-            <input type="text"id="" placeholder="Add Comments" />
+            {/* <input type="text"id="" placeholder="Add Comments" /> */}
+            <p>played in 2009 ICC Champions Trophy</p>
             <br/>
             <button type='button' className="cancel-button">Back</button>
             <button type='button'>Save</button>
